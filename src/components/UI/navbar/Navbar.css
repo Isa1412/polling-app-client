@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 8px #f0f1f2;
+    z-index: 10;
+    padding: 0;
+    background: white;
+}
+
+.title {
+    float: left;
+}
+
+.title a {
+    text-decoration: none;
+    line-height: 64px;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.title a:hover {
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-icon-item {
+    padding: 0 !important;
+}
+
+.menu-icon-item span {
+    padding: 0 20px;
+    font-size: 16px !important;
+}
+
+.menu-icon-text-item {
+    font-size: 16px !important;
+}
+
+.profile-dropdown-menu {
+    min-width: 180px;
+    margin: 0 !important;
+}
+
+.user-full-name-info {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.85) !important;
+    pointer-events: none;
+    height: 30px !important;
+    line-height: 40px !important;
+}
+
+.username-info {
+    font-size: 14px;
+    color: rgba(0,0,0,0.65) !important;
+    pointer-events: none;
+    height: 30px !important;
+    line-height: 20px !important;
+}
